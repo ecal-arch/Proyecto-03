@@ -1,0 +1,278 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+}
+
+.modal-contenido {
+  background: #16181e;
+  border: 1px solid #232730;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 500px;
+  padding: 1.5rem;
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.modal-encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #232730;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-cerrar {
+  background: transparent;
+  border: none;
+  color: #8e95a5;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.lista-items {
+  max-height: 280px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.item-carrito {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f222b;
+  padding: 0.8rem;
+  border-radius: 12px;
+}
+
+.item-controles {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.item-controles button {
+  background: #2b303c;
+  border: none;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-eliminar {
+  background: transparent !important;
+  cursor: pointer;
+}
+
+.resumen-compra {
+  border-top: 1px solid #232730;
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+}
+
+.total-fila {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.btn-pagar, .btn-confirmar-pago {
+  width: 100%;
+  background: #38bdf8;
+  color: #000;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.form-pago {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.form-pago input {
+  background: #1f222b;
+  border: 1px solid #334155;
+  padding: 0.7rem;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.form-grupo-doble {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.marca-tarjeta {
+  color: #38bdf8;
+  font-weight: bold;
+}
+
+.error-pago {
+  color: #ef4444;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+}
+
+.botones-pago {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+.btn-volver {
+  background: #334155;
+  color: #fff;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.pago-exito {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* Estilos para el Recibo */
+.recibo-contenedor {
+  background: #0f1117;
+  border: 1px dashed #38bdf8;
+  padding: 1.2rem;
+  border-radius: 12px;
+  color: #e2e8f0;
+}
+
+.recibo-encabezado {
+  text-align: center;
+  border-bottom: 1px solid #232730;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.recibo-encabezado h3 {
+  margin: 0;
+  color: #38bdf8;
+  letter-spacing: 1px;
+}
+
+.recibo-folio {
+  display: inline-block;
+  margin-top: 0.4rem;
+  background: #1e293b;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #fbbf24;
+}
+
+.recibo-detalles-cliente p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+.recibo-tabla {
+  margin: 1rem 0;
+  border-top: 1px solid #232730;
+  border-bottom: 1px solid #232730;
+  padding: 0.5rem 0;
+}
+
+.recibo-tabla-header, .recibo-tabla-fila {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  font-size: 0.85rem;
+  padding: 0.3rem 0;
+}
+
+.recibo-tabla-header {
+  font-weight: bold;
+  color: #94a3b8;
+}
+
+.recibo-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.monto-total {
+  color: #22c55e;
+}
+
+.recibo-gracias {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin-bottom: 1rem;
+}
+
+.recibo-acciones {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.btn-imprimir {
+  flex: 1;
+  background: #38bdf8;
+  color: #000;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-finalizar {
+  background: #334155;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Ocultar interfaz no deseada al imprimir */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #recibo-imprimir, #recibo-imprimir * {
+    visibility: visible;
+  }
+  #recibo-imprimir {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+  }
+  .recibo-acciones {
+    display: none;
+  }
+}

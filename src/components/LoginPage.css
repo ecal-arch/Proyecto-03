@@ -1,0 +1,140 @@
+.login-fondo {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at center, #1e2430 0%, #0d0e12 100%);
+  padding: 1rem;
+}
+
+.login-tarjeta {
+  background: #16181e;
+  border: 1px solid #232730;
+  border-radius: 24px;
+  padding: 2.5rem 2rem;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: #fff;
+}
+
+.login-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.login-logo img {
+  max-width: 120px;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.oculto {
+  display: none !important;
+}
+
+.login-titulo {
+  font-size: 1.8rem;
+  margin: 0.5rem 0 0.2rem 0;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
+
+.login-subtitulo {
+  color: #8e95a5;
+  font-size: 0.9rem;
+  margin-bottom: 1.8rem;
+}
+
+.login-etiqueta {
+  display: block;
+  text-align: left;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin: 0.8rem 0 0.3rem 0;
+}
+
+.login-input {
+  width: 100%;
+  background: #1f222b;
+  border: 1px solid #334155;
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.login-input:focus {
+  border-color: #38bdf8;
+}
+
+.login-input-contrasena {
+  position: relative;
+  width: 100%;
+}
+
+.login-boton-ojo {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: #8e95a5;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.login-error {
+  color: #f87171;
+  font-size: 0.85rem;
+  margin-top: 0.8rem;
+  background: rgba(239, 68, 68, 0.1);
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.login-boton {
+  width: 100%;
+  background: #38bdf8;
+  color: #000;
+  border: none;
+  padding: 0.85rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.login-boton:hover {
+  background: #7dd3fc;
+}
+
+.login-boton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.login-enlace-registro {
+  background: transparent;
+  border: none;
+  color: #8e95a5;
+  font-size: 0.85rem;
+  margin-top: 1.2rem;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.login-enlace-registro:hover {
+  color: #fff;
+}

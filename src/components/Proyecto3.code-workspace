@@ -1,0 +1,88 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../node_modules"
+		},
+		{
+			"path": "../../node_modules/@oxc-project"
+		},
+		{
+			"path": "../../node_modules/@oxlint"
+		},
+		{
+			"path": "../../node_modules/@rolldown"
+		},
+		{
+			"path": "../../node_modules/@types"
+		},
+		{
+			"path": "../../node_modules/@vitejs"
+		},
+		{
+			"path": "../../node_modules/csstype"
+		},
+		{
+			"path": "../../node_modules/detect-libc"
+		},
+		{
+			"path": "../../node_modules/fdir"
+		},
+		{
+			"path": "../../node_modules/lightningcss"
+		},
+		{
+			"path": "../../node_modules/lightningcss-darwin-arm64"
+		},
+		{
+			"path": "../../node_modules/nanoid"
+		},
+		{
+			"path": "../../node_modules/oxlint"
+		},
+		{
+			"path": "../../node_modules/picocolors"
+		},
+		{
+			"path": "../../node_modules/picomatch"
+		},
+		{
+			"path": "../../node_modules/postcss"
+		},
+		{
+			"path": "../../node_modules/react"
+		},
+		{
+			"path": "../../node_modules/react-dom"
+		},
+		{
+			"path": "../../node_modules/rolldown"
+		},
+		{
+			"path": "../../node_modules/scheduler"
+		},
+		{
+			"path": "../../node_modules/source-map-js"
+		},
+		{
+			"path": "../../node_modules/tinyglobby"
+		},
+		{
+			"path": "../../node_modules/typescript"
+		},
+		{
+			"path": "../../node_modules/undici-types"
+		},
+		{
+			"path": "../../node_modules/vite"
+		},
+		{
+			"path": "../../public"
+		},
+		{
+			"path": ".."
+		}
+	]
+}
